@@ -1,0 +1,169 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+
+/* Import Font Awesome for social media icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* footer.css */
+
+.footer {
+    background-color: #0f1e3e;
+    color: #ffffff;
+    padding: 40px 100px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+}
+.footer h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 58%; 
+  height: 3px;
+  background-color: #d3d2cf;
+}
+
+.footer p, .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-content > div {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer .social-media-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer .social-media-icons a:hover {
+    color: #ffcc00;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-bottom .footer-logo img {
+
+    max-height: 50px;
+}
+
+.footer-bottom .footer-copy {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.footer-bottom .footer-admissions a {
+    color: #ffcc00;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer-bottom .footer-admissions a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content > div {
+        margin: 10px -65px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer-bottom .footer-logo,
+    .footer-bottom .footer-admissions {
+        margin: 10px 0;
+    }
+
+    .footer-bottom .footer-copy {
+        margin: 10px 0;
+    }
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.get-in-touch,
+.explore,
+.quick-links,
+.schools,
+.admissions,
+.social-media-icons {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.get-in-touch h2,
+.explore h2,
+.quick-links h2,
+.schools h2,
+.admissions h2,
+.social-media-icons,
+.footer-logo  {
+  text-align: left;
+}
+
+.get-in-touch p,
+.explore a,
+.quick-links a,
+.schools a,
+.admissions a
+{
+  text-align: left;
+}
+
+/* Additional CSS for other elements in the footer as needed */
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  margin-right: 15px; /* Adjust the spacing as needed */
+}
+
+.footer-logo span {
+  font-size: 20px; /* Adjust font size as needed */
+  color: #ffffff;  /* Ensure text color matches your design */
+}

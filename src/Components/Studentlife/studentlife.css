@@ -1,0 +1,25 @@
+.student-life {
+    /* Overall section styling */
+    padding: 30px;
+    text-align: center; /* Center content */
+  }
+  
+  .student-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    justify-content: center;
+  }
+  
+  .student-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .student-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
