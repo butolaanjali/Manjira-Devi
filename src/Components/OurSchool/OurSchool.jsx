@@ -18,12 +18,12 @@ const OurSchool = () => {
 
   const slides = [
     {
-      title: 'Dev Bhoomi Medical College of Ayurveda & Hospital (DBMCAH)',
+      title: 'Manjira Devi Medical College of Ayurveda & Hospital (DBMCAH)',
       image: 'img1.jpeg',
       link: '#',
     },
     {
-      title: 'Dev Bhoomi Institute of Polytechnic (DBIP)',
+      title: 'Manjira Devi Institute of Polytechnic (DBIP)',
       image: 'img2.jpg',
       link: '#',
     },

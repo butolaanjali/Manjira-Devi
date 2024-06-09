@@ -6,7 +6,7 @@
   
   .left-column {
     width: 60%;
-    padding-right: 20px;
+    padding-right: 10px;
   }
   
   .right-column {
@@ -17,26 +17,39 @@
     font-size: 24px;
     color: #d32f2f;
     margin-bottom: 20px;
+    position: relative;
   }
   
   .happening, .placement-highlights, .campus-life {
     margin-bottom: 40px;
   }
   
-  .happening .slide-content, .placement-highlights .placement-content, .campus-life .campus-life-content {
+  .placement-highlights .placement-content, .campus-life .campus-life-content {
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
   }
   
+  .happening .slide-content{
+    background: blueviolet;
+    padding: 10px -0px;
+    border-radius: 10px;
+  }
+  .happening{
+    height: 400px; /* Adjust the height as needed */
+    margin-bottom: 10px;
+  }
   .slide-content {
     text-align: center;
+    color: #f8f8f8;
+    
   }
   
   .slide-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #f8f8f8;
   }
   
   .slide-button {
@@ -55,9 +68,15 @@
     justify-content: space-between;
     gap: 20px;
   }
-  
-  .placement-image, .campus-image {
-    width: 100%;
+  .placement-image {
+    width: 70%;
+    height: 90%; /* Assuming you want the height to remain the same */
+    background-size: cover; /* This will stretch the image to cover the entire container */
+    background-position: center; /* This will center the image within the container */
+    border-radius: 10px; 
+  }
+  .campus-image {
+    width: 90%;
     height: auto;
     border-radius: 10px;
   }

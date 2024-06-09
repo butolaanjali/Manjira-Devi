@@ -15,37 +15,56 @@ const Layout = () => {
     autoplaySpeed: 3000,
     arrows: false,
   };
-
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+  };
   const slides = [
     {
       title: 'A Guest Lecture on Inspiring Youth to join Civil services as a Career Option',
       date: '16-May-2024 | 12:30 PM',
-      location: 'DBUU Campus',
+      location: 'Manjira Devi Campus',
       type: 'Guest Lecture',
       image: 'path/to/image1.jpg',
     },
     {
       title: 'Patent Filing Procedure and IP management of MSME',
       date: '16-May-2024 | 11:00 AM',
-      location: 'Main Building, DBUU Campus',
+      location: 'Main Building, Manjira Devi Campus',
       type: 'Workshop',
       image: 'path/to/image2.jpg',
     },
     {
       title: 'WORLD Environment Day Celebration',
       date: '05-Jun-2024 | 10:00 AM',
-      location: 'DBUU Campus',
+      location: 'Manjira Devi Campus',
       type: 'Celebration',
       image: 'path/to/image3.jpg',
     },
     // Add more slides as needed
   ];
-
+  const placementSlides = [
+    {
+      title: 'Placement Highlight 1',
+      image: 'image1.jpeg',
+    },
+    {
+      title: 'Placement Highlight 2',
+      image: 'image2.jpeg',
+    },
+    // Add more slides for placement highlights section as needed
+  ];
   return (
     <div className="dbuu-layout">
       <div className="left-column">
         <section className="happening">
-          <h2 className="section-title">Happening @DBUU</h2>
+          <h2 className="section-title">Happening @Manjira Devi</h2>
           <Slider {...settings}>
             {slides.map((slide, index) => (
               <div key={index} className="slide">
@@ -62,9 +81,13 @@ const Layout = () => {
         </section>
         <section className="placement-highlights">
           <h2 className="section-title">Placement Highlights</h2>
-          <div className="placement-content">
-            <img src="image1.jpeg" alt="Placement Highlights" className="placement-image" />
-          </div>
+          <Slider {...sliderSettings}>
+            {placementSlides.map((slide, index) => (
+              <div key={index} className="slide">
+                <img src={slide.image} alt={slide.title} className="placement-image" />
+              </div>
+            ))}
+          </Slider>
         </section>
       </div>
       <div className="right-column">
@@ -76,7 +99,7 @@ const Layout = () => {
               <p>8000+ Students on campus</p>
             </div>
             <div className="campus-life-item">
-              <img src="image2.jpg" alt="Student Activity Clubs" className="campus-image" />
+              <img src="img2.jpg" alt="Student Activity Clubs" className="campus-image" />
               <p>Student Activity Clubs</p>
             </div>
           </div>
