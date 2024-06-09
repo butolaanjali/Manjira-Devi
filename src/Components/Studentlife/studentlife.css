@@ -34,3 +34,25 @@
   margin-bottom: 10px;
   border-radius: 40px;
 }
+/* Mobile view adjustments */
+@media (max-width: 600px) {
+  .student-gallery {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .student-card {
+    width: 90%; /* Make cards take most of the screen width */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .student-card img {
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Reduce margin */
+  }
+
+  .student img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 5px; /* Reduce margin */
+  }
+}

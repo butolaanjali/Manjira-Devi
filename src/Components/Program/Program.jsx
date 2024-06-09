@@ -16,7 +16,10 @@ function Program() {
             <li>DOCTORATE</li>
           </ul>
         </div>
-        <div className="programme-sections">
+        <div
+          className="programme-sections"
+          style={{ backgroundColor: '#8FBC8F', padding: '20px', borderRadius: '8px' }}
+        >
           <div className="programme-section">
             <h3>School of Engineering & Computing</h3>
             <ul>

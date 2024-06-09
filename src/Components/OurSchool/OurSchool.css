@@ -90,4 +90,41 @@
   .slick-dots li.slick-active button:before {
     color: white !important;
   }
-  
+ /* Media query for mobile view */
+@media (max-width: 480px) {
+  .our-schools-slider {
+      padding: 5px 20px;
+  }
+
+  .slider-title {
+      font-size: 20px;
+  }
+
+  .slider-subtitle {
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+
+  .slide {
+      padding: 0 2px;
+      margin: 0px -2px;
+  }
+
+  .slide-title {
+      font-size: 16px;
+  }
+
+  .slide-button {
+      padding: 6px 12px;
+  }
+
+  .slick-prev, .slick-next {
+      width: 25px;
+      height: 25px;
+      bottom: 10px;
+  }
+
+  .slick-dots {
+      bottom: 50px;
+  }
+}

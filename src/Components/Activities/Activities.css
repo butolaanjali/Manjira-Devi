@@ -103,3 +103,19 @@
 .owl-carousel .post-slide:hover .post-content {
     margin-top: -10px; 
 }
+/* Mobile view adjustments */
+@media (min-width: 768px) {
+    .ytt-courses {
+        padding: 90px 100px; /* Adjust padding for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .ytt-courses {
+        padding: 40px 100px; /* Restore original padding for larger screens */
+    }
+
+    .owl-nav {
+        display: flex; /* Display navigation buttons for larger screens */
+    }
+}

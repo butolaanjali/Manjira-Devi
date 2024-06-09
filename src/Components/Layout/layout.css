@@ -70,9 +70,9 @@
   }
   .placement-image {
     width: 70%;
-    height: 90%; /* Assuming you want the height to remain the same */
-    background-size: cover; /* This will stretch the image to cover the entire container */
-    background-position: center; /* This will center the image within the container */
+    height: 90%; 
+    background-size: cover; 
+    background-position: center; 
     border-radius: 10px; 
   }
   .campus-image {
@@ -96,4 +96,25 @@
   .slick-dots li button:before {
     color: white !important;
   }
-  
+  /* Mobile view adjustments */
+@media (min-width: 768px) {
+    .dbuu-layout {
+        padding: 20px 50px; 
+        flex-direction: row; 
+    }
+
+    .left-column {
+        width: 60%; 
+        padding-right: 10px; 
+    }
+
+    .right-column {
+        width: 40%; 
+    }
+}
+
+@media (min-width: 992px) {
+    .dbuu-layout {
+        padding: 20px 150px; /* Restore original padding for larger screens */
+    }
+}
