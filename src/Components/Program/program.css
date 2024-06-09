@@ -1,0 +1,80 @@
+.dbuu-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .choose-programme h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #003366; /* DBUU primary color */
+    font-weight: bold;
+  }
+  
+  .dbuu-programmes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .programme-types {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .programme-types ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .programme-types li {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #003366; /* DBUU primary color */
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .programme-types li:hover {
+    background-color: #003366; /* DBUU primary color */
+    color: #fff;
+  }
+  
+  .programme-sections {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 600px; /* Set a max height for scrolling */
+  }
+  
+  .programme-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #003366; /* DBUU primary color */
+    border-bottom: 2px solid #003366; /* Underline style */
+    padding-bottom: 5px;
+  }
+  
+  .programme-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .programme-section li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  

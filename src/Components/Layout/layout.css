@@ -1,0 +1,80 @@
+.dbuu-layout {
+    display: flex;
+    padding: 20px 150px;
+    background-color: #f8f8f8;
+  }
+  
+  .left-column {
+    width: 60%;
+    padding-right: 20px;
+  }
+  
+  .right-column {
+    width: 40%;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+  }
+  
+  .happening, .placement-highlights, .campus-life {
+    margin-bottom: 40px;
+  }
+  
+  .happening .slide-content, .placement-highlights .placement-content, .campus-life .campus-life-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .slide-content {
+    text-align: center;
+  }
+  
+  .slide-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .slide-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f96e5b;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .placement-content, .campus-life-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .placement-image, .campus-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .campus-life-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .campus-life-item {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .slick-dots li button:before {
+    color: white !important;
+  }
+  

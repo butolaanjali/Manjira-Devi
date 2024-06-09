@@ -1,0 +1,105 @@
+.ytt-courses {
+    padding: 40px 100px;
+    background-color: #f7f7f7;
+}
+
+.heading-section {
+    margin-bottom: -10px;
+}
+
+.subheading {
+    display: block;
+    font-size: 19px;
+    color: #f96e5b;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.carousel-container {
+    background-color: #ffffff; /* Background color for the carousel */
+    padding: 20px 20px; /* Padding for the carousel */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.owl-carousel .post-slide {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.owl-carousel .post-slide .post-img {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.owl-carousel .post-slide .post-img img {
+    width: 100%;
+    height: 290px; /* Ensure consistent height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0;
+}
+
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-description {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+.owl-nav button {
+    background: #000; /* Black background */
+    color: #fff; /* White arrow color */
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%; /* Make it round */
+    width: 40px;
+    height: 40px;
+    margin: 20px 80px; /* Add some margin */
+}
+
+.owl-nav button i {
+    font-size: 18px; /* Adjust arrow icon size if needed */
+}
+
+.owl-carousel .post-slide .post-content {
+    padding: 10px;
+    flex: 0 0 auto;
+    margin-top: -50px; 
+    transition: margin-top 0.3s ease; 
+}
+
+.owl-carousel .post-slide:hover .post-content {
+    margin-top: -10px; 
+}

@@ -1,0 +1,108 @@
+/* src/StudentSpeak.css */
+
+.student-speak {
+    padding: 50px;
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+  }
+  
+  .subheading {
+    display: block;
+    font-size: 19px;
+    color: #f96e5b;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(245, 241, 241);
+  }
+  
+  .student1-card {
+    display: flex !important;
+    overflow: hidden;
+    margin: 20px;
+    max-width: 1200px;
+    width: 200%;
+    text-align: left;
+  }
+  
+  .student-image {
+    width: 500px;
+    height: auto;
+  }
+  
+  .student-image img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  }
+  
+  .student-content {
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+  
+  .student-content h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-course {
+    font-size: 14px;
+    color: #f7f1f1;
+    margin-bottom: 15px;
+  }
+  
+  .placed-at {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Slick Carousel Navigation Buttons */
+.slick-prev, .slick-next {
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 24px;
+    color: white;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}

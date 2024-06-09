@@ -1,0 +1,98 @@
+.our-schools-slider {
+    padding: 50px 100px;
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .slider-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .slider-subtitle {
+    font-size: 19px;
+    color: #f96e5b;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 40px;
+  }
+  
+  .slide {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;    
+    margin: 0px -10px; /* Add margin to create gaps between slides */
+  }
+  
+  .slide-image {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .slide-content {
+    text-align: center;
+  }
+  
+  .slide-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .slide-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f96e5b;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .slick-prev, .slick-next {
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;  /* Position arrows near the bottom of the image */
+    z-index: 1;
+  }
+  
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .slick-dots {
+    bottom: 100;  /* Align dots with arrows */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px; /* Adjust margin for dot spacing */
+  }
+  
+  .slick-dots li button:before {
+    color: white !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white !important;
+  }
+  
